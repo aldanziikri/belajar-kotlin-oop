@@ -4,8 +4,7 @@ import data.Person.Person
 
 
 fun main() {
-    val person = Person("aldan", "zikriiiii")
+    val aldan = Person("aldan", "zikriiiii")
+    val intan = Person("intan", "putri")
 
-    println(person.firstName)
-    println(person.lastName)
 }
