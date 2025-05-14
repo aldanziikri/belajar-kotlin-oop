@@ -1,8 +1,8 @@
 package data.Person
 
-class Person {
-    var firstName: String =  ""
+class Person(firstname: String = "Tidak ada nama", lastname: String = "") {
+    var firstName: String =  firstname
     var middleName: String? = null
-    var lastName: String = ""
+    var lastName: String = lastname
 }
 
