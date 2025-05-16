@@ -5,6 +5,6 @@ import data.Person.Person
 
 fun main() {
 val aldan = Person("aldan", "zikriiiii")
-    println(aldan.firstname)
-    println(aldan.lastname)
+    aldan.sayHello()
+    aldan.sayHello(aldan.firstname+ " "+aldan.lastname)
 }
