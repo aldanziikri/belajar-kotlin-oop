@@ -1,12 +1,12 @@
 package data.Person
 
-class Person(var firstname: String = "Tidak ada nama", var lastname: String = "") {
+class Person(var name: String = "Tidak ada nama") {
 
     fun sayHello() {
-        println("Hello $firstname $lastname")
+        println("Hello ${this.name}")
     }
     fun sayHello(name:String) {
-        println("Hello $name, ini fun ke 2 say hello")
+        println("Hello $name, nama saya ${this.name}")
     }
 }
 
