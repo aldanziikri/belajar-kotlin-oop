@@ -4,8 +4,10 @@ import data.Kotak
 import data.Person.Kelas
 import data.Person.Person
 import data.Person.Siswa
+import data.Premium
 import data.Segitiga
 import data.Shapes
+import data.Standart
 
 
 fun main() {
@@ -22,10 +24,18 @@ fun main() {
 //    println(siswa.sayHello("intan"))
 //    println(kelas.sayHello("XI PPLG 12"))
 
-    val shape = Shapes()
-    val kotak = Kotak()
-    val segitiga = Segitiga()
+//    val shape = Shapes()
+//    val kotak = Kotak()
+//    val segitiga = Segitiga()
+//
+//    println(kotak.corner)
+//    kotak.sayHello()
 
-    println(kotak.corner)
-    kotak.sayHello()
+
+    val cusPremium = Premium("aldan", 17)
+    val cusStandart = Standart("zumaa", 18)
+    println(cusPremium.name)
+    println(cusStandart.name)
+
+
 }
