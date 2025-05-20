@@ -38,7 +38,11 @@ fun main() {
 //    println(cusPremium.name)
 //    println(cusStandart.name)
 
-    val note = Note("belajar setter dan getter")
-    println(note.title);
-    note.title = "aldan";
+//    val note = Note("belajar setter dan getter")
+//    println(note.title);
+
+
+    val note = Note("belajar lateinit");
+    note.makeContent("belajar lateinit")
+    println(note.content)
 }

@@ -1,7 +1,16 @@
 package data
 
+import javax.naming.Context
+
 class Note(title: String) {
-     var title: String = title
+
+    lateinit var content: String
+
+    fun makeContent(content: String){
+        this.content = content
+    }
+
+      var title: String = title
         get() = field
         set(value) {
             println("al;fsdkjf")
