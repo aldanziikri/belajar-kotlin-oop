@@ -9,6 +9,8 @@ import data.Premium
 import data.Segitiga
 import data.Shapes
 import data.Standart
+import data.toUpperName
+import data.upper
 
 
 fun main() {
@@ -43,6 +45,8 @@ fun main() {
 
 
     val note = Note("belajar lateinit");
-    note.makeContent("belajar lateinit")
-    println(note.content)
+    note.upper("belajar");
+    println(note.toUpperName)
+//    note.makeContent("belajar lateinit")
+//    println(note.content)
 }

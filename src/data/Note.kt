@@ -1,7 +1,5 @@
 package data
 
-import javax.naming.Context
-
 class Note(title: String) {
 
     lateinit var content: String
@@ -16,4 +14,11 @@ class Note(title: String) {
             println("al;fsdkjf")
             if (value.isNotBlank()) field = value
         }
+}
+
+val Note.toUpperName: String
+    get() = this.title.uppercase()
+
+fun Note.upper(title: String){
+    println(title.uppercase())
 }
