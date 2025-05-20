@@ -1,6 +1,7 @@
 package app
 
 import data.Kotak
+import data.Note
 import data.Person.Kelas
 import data.Person.Person
 import data.Person.Siswa
@@ -32,10 +33,12 @@ fun main() {
 //    kotak.sayHello()
 
 
-    val cusPremium = Premium("aldan", 17)
-    val cusStandart = Standart("zumaa", 18)
-    println(cusPremium.name)
-    println(cusStandart.name)
+//    val cusPremium = Premium("aldan", 17)
+//    val cusStandart = Standart("zumaa", 18)
+//    println(cusPremium.name)
+//    println(cusStandart.name)
 
-
+    val note = Note("belajar setter dan getter")
+    println(note.title);
+    note.title = "aldan";
 }
