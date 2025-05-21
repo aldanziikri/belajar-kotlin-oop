@@ -44,9 +44,9 @@ fun main() {
 //    println(note.title);
 
 
-    val note = Note("belajar lateinit");
-    note.upper("belajar");
-    println(note.toUpperName)
+//    val note = Note("belajar lateinit");
+//    note.upper("belajar");
+//    println(note.toUpperName)
 //    note.makeContent("belajar lateinit")
 //    println(note.content)
 }
